@@ -1,0 +1,16 @@
+[submodule "plugins/bd"]
+	path = plugins/bd
+	url = git@github.com:Tarrasch/zsh-bd.git
+	branch = master
+[submodule "plugins/zsh-256color"]
+	path = plugins/zsh-256color
+	url = git@github.com:chrissicool/zsh-256color.git
+	branch = master
+[submodule "plugins/zsh-autosuggestions"]
+	path = plugins/zsh-autosuggestions
+	url = git@github.com:zsh-users/zsh-autosuggestions.git
+	branch = master
+[submodule "themes/powerlevel9k"]
+	path = themes/powerlevel9k
+	url = git@github.com:Powerlevel9k/powerlevel9k.git
+	branch = master
