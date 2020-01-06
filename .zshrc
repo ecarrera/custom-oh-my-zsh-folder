@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.  export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/Jorge/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -9,29 +9,28 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Customise the Powerlevel9k prompts POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(battery)
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
-    dir
-	vcs
-	custom_tools
-    vi_mode
-)
+	POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
+			dir
+			vcs
+			custom_tools
+			)
 # `vcs` color customization
-POWERLEVEL9K_VCS_CLEAN_FOREGROUND='blue'
-POWERLEVEL9K_VCS_CLEAN_BACKGROUND='green'
-POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='yellow'
-POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='black'
-POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='red'
-POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='gold'
+	POWERLEVEL9K_VCS_CLEAN_FOREGROUND='blue'
+	POWERLEVEL9K_VCS_CLEAN_BACKGROUND='green'
+	POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='yellow'
+	POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='black'
+	POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='red'
+	POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='gold'
 #POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 	POWERLEVEL9K_CUSTOM_TOOLS="echo -n '\ufd42' '\uf898' '\ue736' '\uf81b' '\ue711' '\ufbbd'  "
 	POWERLEVEL9K_CUSTOM_TOOLS_FOREGROUND="black"
-	POWERLEVEL9K_CUSTOM_TOOLS_BACKGROUND="lightsalmon3"
+	POWERLEVEL9K_CUSTOM_TOOLS_BACKGROUND="crimson"
 
 # Load Nerd Fonts with Powerlevel9k theme for Zsh
 	POWERLEVEL9K_MODE='nerdfont-complete'
 	source ~/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme
 
-POWERLEVEL9K_COLOR_SCHEME='light'
+	POWERLEVEL9K_COLOR_SCHEME='light'
 
 
 # Set list of themes to load
@@ -90,7 +89,6 @@ zsh-autosuggestions
 locale
 bd
 zsh-256color
-vi-mode
 vscode
 )
 
